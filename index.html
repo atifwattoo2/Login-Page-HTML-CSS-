@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bc180402897</title>
+
+    <style>
+    .bg_img{
+        height: 35rem;
+        width: 100%;
+        background-image: url(./assets/img/bg.jpg);
+        background-size: cover;     
+    }
+    .heading{
+        padding: 0px;
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        background-color: rgb(223, 223, 223);
+    }
+    .text1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo{
+
+        height: 12rem;
+        width: 12rem;
+        border-radius: 12rem;
+        margin: 0px auto;
+       
+    }
+    .img1{
+
+        height: 12rem;
+        width: 12rem;
+        border-radius: 12rem;
+        background-size: cover;
+    }
+    .rect1{
+      
+        height: 17rem;
+        width: 40rem;
+        margin: 0px auto;
+
+    }
+    .input1{
+        border: 0px ;
+        width: 38rem;
+        padding: 10px;
+    }
+    .text2{
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .butn{
+        margin-top: 20px;
+      
+        height: 40px;
+        width: 39.3rem;
+        color: white;
+        cursor: pointer;
+        background-color: #04AA6D;
+    }
+    .cbox{
+        margin-top: 10px;
+    }
+    .bottom{
+        height: 5rem;
+        width: 100%;
+        background-color: rgb(223, 223, 223) ;
+    }
+    .bottom_text{
+
+        height: 5rem;
+        width: 40rem;
+        margin: 0px auto;
+
+    }
+    .cancel{
+        float: left;
+        margin-top: 10px;
+        height: 2.5rem;
+        width: 6rem;
+        color: white;
+        background-color: red;
+    }
+    .forget{
+        float: right;
+        margin-top: 25px;
+        margin-right: 20px;
+
+    }
+
+        
+
+    </style>
+    <script>
+        function atif()
+        {
+            alert("BC180402897");
+        }
+    </script>
+</head>
+<body class="bg_img">
+    
+    <div class="heading">
+        <p class="text1">
+            Assignment#2
+        </p>
+    </div>
+    <div class="logo">
+
+        <img class="img1" src="./assets/img/profile.jpg" alt="">
+          
+    </div>
+    <div class="rect1">
+        <label for="name">
+            <p class="text2">User ID</p>
+        </label>
+        
+        <input class="input1" type="text" id="name" placeholder="Enter Your ID" >
+        <label for="Password">
+            <p class="text2">Password</p>
+        </label>
+       
+        <input class="input1" type="text" id="name" placeholder="Enter Password" >
+
+        <button class="butn" type="submit" onclick="atif()">Click Here to view alert box</button>
+        <input class="cbox" type="checkbox" > Remeber ME
+
+    </div>
+    
+    <div class="bottom">
+
+        <div class="bottom_text">
+
+            <button class="cancel" type="button">Cancel</button>
+            <span class="forget">Forget
+                <a href="Password?">password?</a>
+            </span>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
